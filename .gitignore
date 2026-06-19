@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ 
+# Models (large files) - GIỮ LẠI best.pt vì đây là model dùng để chạy code (chỉ ~6MB)
+models/yolov8/last.pt
+models/yolov8/runs/
+ 
+# Outputs (mọi cấp, mọi nơi trong dự án) - ignore toàn bộ file bên trong, chỉ giữ .gitkeep
+**/outputs/*
+!**/outputs/**/.gitkeep
+!**/outputs/.gitkeep
+ 
+# Database
+database/plate_logs.db
+database/*.db
+database/*.sqlite3
+ 
+# Data (large)
+data/raw/images/*
+data/raw/videos/*
+data/processed/train/*
+data/processed/val/*
+data/processed/test/*
+!data/**/.gitkeep
+ 
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+ 
+# IDE
+.vscode/
+.idea/
+*.swp
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Docker
+.docker/
+ 
+# Env
+.env
+*.env

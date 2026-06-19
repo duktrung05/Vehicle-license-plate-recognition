@@ -1,0 +1,18 @@
+path: ../processed
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names:
+  - license_plate
+
+# Dataset info
+dataset_info:
+  name: "Vietnamese License Plate Dataset"
+  version: "1.0"
+  description: "Dataset for detecting and recognizing Vietnamese license plates"
+  total_images: 0
+  train_images: 0
+  val_images: 0
+  test_images: 0

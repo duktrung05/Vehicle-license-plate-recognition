@@ -1,0 +1,2 @@
+run_id,timestamp,model,dataset,epochs,imgsz,batch_size,map50,map50_95,precision,recall,exact_match_rate,char_accuracy,mean_edit_distance,notes
+1,2024-01-01T00:00:00,yolov8n,sample_dataset,100,640,16,0.0,0.0,0.0,0.0,0.0,0.0,0.0,placeholder - fill after training
