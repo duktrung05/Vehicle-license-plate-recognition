@@ -38,7 +38,7 @@ xulyanh_v3/
 ├── requirements.txt              # Danh sách thư viện phụ thuộc
 └── README.md                     # Tài liệu hướng dẫn dự án
 
-
+```
 ### Cách chạy:
 cd xulyanh_v3
 python -m venv venv
